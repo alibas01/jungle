@@ -64,7 +64,17 @@ RSpec.describe User, type: :model do
 
 
   describe '.authenticate_with_credentials' do
-    # examples for this class method here
+    it "is finding the user and authenticates with credentials" do
+      a_user = User.new(first_name:"Ali", last_name:"Bas", email: "ali@ali.com", password:"12qw", password_confirmation:"12qw")
+      a_user.save
+      expect(a_user.authenticate_with_credentials("ali@ali.com", "12qw")).to eq(a_user)
+    end
+
+    it "is finding the user and authenticates with credentials" do
+      a_user = User.new(first_name:"Ali", last_name:"Bas", email: "ali@ali.com", password:"12qw", password_confirmation:"12qw")
+      a_user.save
+      expect(a_user.authenticate_with_credentials("ali@ali.com", "12qsdeff")).to eq(nil)
+    end
   end
 
 end
