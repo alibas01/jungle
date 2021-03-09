@@ -75,6 +75,18 @@ RSpec.describe User, type: :model do
       a_user.save
       expect(a_user.authenticate_with_credentials("ali@ali.com", "12qsdeff")).to eq(nil)
     end
+
+    it "is authenticating with wrong case credentials" do
+      a_user = User.new(first_name:"Ali", last_name:"Bas", email: "ali@ali.com", password:"12qw", password_confirmation:"12qw")
+      a_user.save
+      expect(a_user.authenticate_with_credentials("Ali@ali.Com", "12qw")).to eq(a_user)
+    end
+
+    it "is authenticating with spaces in the credentials" do
+      a_user = User.new(first_name:"Ali", last_name:"Bas", email: "ali@ali.com", password:"12qw", password_confirmation:"12qw")
+      a_user.save
+      expect(a_user.authenticate_with_credentials("  ali@ali.com  ", "12qsdeff")).to eq(nil)
+    end
   end
 
 end
