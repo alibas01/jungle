@@ -32,18 +32,18 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ## Product
 
 <p align="center">
-  <img width="auto" height="200" src="https://github.com/alibas01/jungle/blob/master/lib/docs/homepage.png">
+  <img width="auto" height="250" src="https://github.com/alibas01/jungle/blob/master/lib/docs/homepage.png">
 </p>
 <p align="center">
-  <img width="auto" height="200" src="https://github.com/alibas01/jungle/blob/master/lib/docs/product-page.png">
+  <img width="auto" height="250" src="https://github.com/alibas01/jungle/blob/master/lib/docs/product-page.png">
 </p>
 <p align="center">
-  <img width="auto" height="200" src="https://github.com/alibas01/jungle/blob/master/lib/docs/adminpage.png">
+  <img width="auto" height="250" src="https://github.com/alibas01/jungle/blob/master/lib/docs/adminpage.png">
 </p>
 <p align="center">
-  <img width="auto" height="200" src="https://github.com/alibas01/jungle/blob/master/lib/docs/mycart.png">
+  <img width="auto" height="250" src="https://github.com/alibas01/jungle/blob/master/lib/docs/mycart.png">
 </p>
 <p align="center">
-  <img width="auto" height="200" src="https://github.com/alibas01/jungle/blob/master/lib/docs/purchase_completed.png">
+  <img width="auto" height="250" src="https://github.com/alibas01/jungle/blob/master/lib/docs/purchase_completed.png">
 </p>
 
