@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of using Rails by example. App includes user and admin authentication, encrypted sessions and hashed password, payment features with stripe and much more. Tested with RSpec, Capybara.
 
 
 ## Setup
@@ -25,3 +25,25 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+* Rails
+* bcrypt
+* bootstrap-sass
+
+## Product
+
+<p align="center">
+  <img width="auto" height="200" src="https://github.com/alibas01/jungle/blob/master/lib/docs/homepage.png">
+</p>
+<p align="center">
+  <img width="auto" height="200" src="https://github.com/alibas01/jungle/blob/master/lib/docs/product-page.png">
+</p>
+<p align="center">
+  <img width="auto" height="200" src="https://github.com/alibas01/jungle/blob/master/lib/docs/adminpage.png">
+</p>
+<p align="center">
+  <img width="auto" height="200" src="https://github.com/alibas01/jungle/blob/master/lib/docs/mycart.png">
+</p>
+<p align="center">
+  <img width="auto" height="200" src="https://github.com/alibas01/jungle/blob/master/lib/docs/purchase_completed.png">
+</p>
+
