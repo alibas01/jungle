@@ -1,28 +1,11 @@
-<table class="table table-bordered">
-  <thead>
-    <tr>
-      <th colspan="4"><h1>Login</h1></th>
-    </tr>
-  </thead>
-  <tbody>
+<h1>Login</h1>
   <%= form_tag '/login' do %>
-    <tr>
-      <td>
         Email: 
-      </td>
-      <td>
         <%= text_field_tag :email %>
-      </td>
-    </tr>
-    <tr>
-      <td>
+
         Password: 
-      </td>
-      <td>
+
         <%= password_field_tag :password %> 
         <%= submit_tag "Submit", class: "btn btn-primary" %>
-      </td>
-    </tr>
-  </tbody>
-</table>  
+ 
 <% end %>
